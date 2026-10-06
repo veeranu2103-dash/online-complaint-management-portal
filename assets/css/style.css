@@ -525,12 +525,12 @@ a.logo:focus {
   margin-top: 14px;
 }
 
-.top-menu > li {
+.top-menu>li {
   display: inline-block;
   position: relative;
 }
 
-.top-menu > li > a {
+.top-menu>li>a {
   color: #666;
   font-size: 13px;
   border-radius: 4px;
@@ -540,12 +540,12 @@ a.logo:focus {
   display: inline-block;
 }
 
-.top-menu > li > a:hover {
+.top-menu>li>a:hover {
   border-color: #fff;
   color: #fff;
 }
 
-ul.top-menu > li > .logout {
+ul.top-menu>li>.logout {
   color: #f2f2f2;
   font-size: 12px;
   border-radius: 4px;
@@ -554,7 +554,7 @@ ul.top-menu > li > .logout {
   background: var(--theme);
 }
 
-ul.top-menu > li > .logout:hover {
+ul.top-menu>li>.logout:hover {
   background: var(--theme-dark);
 }
 
@@ -628,7 +628,7 @@ ul.sidebar-menu {
   margin-top: 75px;
 }
 
-.sidebar-profile + ul.sidebar-menu {
+.sidebar-profile+ul.sidebar-menu {
   margin-top: 8px;
 }
 
@@ -676,21 +676,21 @@ ul.sidebar-menu li.section-title {
   padding: 12px 10px 4px;
 }
 
-#sidebar .sub-menu > .sub {
+#sidebar .sub-menu>.sub {
   display: none;
 }
 
-#sidebar .sub-menu.open > .sub {
+#sidebar .sub-menu.open>.sub {
   display: block;
 }
 
-#sidebar .sub-menu > .sub li {
+#sidebar .sub-menu>.sub li {
   margin: 0;
   padding-left: 15px;
   background: var(--sidebar);
 }
 
-#sidebar .sub-menu > .sub li a {
+#sidebar .sub-menu>.sub li a {
   font-size: 11px;
   line-height: 25px;
   padding: 6px 10px 6px 20px;
@@ -725,7 +725,7 @@ ul.sidebar-menu li.section-title {
   width: 100%;
 }
 
-.sidebar-closed > #sidebar {
+.sidebar-closed>#sidebar {
   margin-left: calc(var(--sidebar-width) * -1);
 }
 
@@ -774,7 +774,7 @@ ul.sidebar-menu li.section-title {
   font-size: 12px;
 }
 
-.breadcrumb li + li::before {
+.breadcrumb li+li::before {
   content: "/";
   padding: 0 7px;
   color: #bbb;
@@ -1792,6 +1792,7 @@ select.form-control {
   color: #fff;
   font-size: 20px;
   font-weight: 900;
+  height: 150px;
 }
 
 .public-logo span {
@@ -2061,7 +2062,7 @@ select.form-control {
 }
 
 @media (max-width: 480px) {
-  .top-menu > li > a {
+  .top-menu>li>a {
     padding: 6px 8px;
     font-size: 11px;
   }
@@ -2097,6 +2098,7 @@ select.form-control {
    ========================================================= */
 
 @media print {
+
   #sidebar,
   .header,
   .sidebar-toggle-box,
