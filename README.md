@@ -483,29 +483,13 @@ git init
 
 git add .
 
-Check what will be committed:
-
 git status
-
-IMPORTANT:
-Make sure .env is NOT listed for commit.
-
-Create commit:
 
 git commit -m "Initial Online Complaint Management Portal"
 
-Set main branch:
-
 git branch -M main
 
-============================================================ 18. CONNECT GITHUB REPOSITORY
-============================================================
-
-Replace YOUR_USERNAME with your GitHub username:
-
-git remote add origin https://github.com/YOUR_USERNAME/online-complaint-management-portal.git
-
-Push:
+git remote add origin https://github.com/veeranu2103-dash/online-complaint-management-portal.git
 
 git push -u origin main
 
@@ -730,6 +714,8 @@ IMPORTANT NOTES
 ============================================================
 END
 ============================================================
-#   o n l i n e - c o m p l a i n t - m a n a g e m e n t - p o r t a l  
- #   o n l i n e - c o m p l a i n t - m a n a g e m e n t - p o r t a l  
+#   o n l i n e - c o m p l a i n t - m a n a g e m e n t - p o r t a l 
+ 
+ #   o n l i n e - c o m p l a i n t - m a n a g e m e n t - p o r t a l 
+ 
  
